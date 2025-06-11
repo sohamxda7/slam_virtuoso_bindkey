@@ -1,0 +1,21 @@
+set ediDefaultViewDepth 0
+ssErrorConfig -bell 1
+ssSysConfig -menusOnGraphicWindows 1
+ssSysConfig -consoleMode tkcon
+ediCreateLBrowser $env(DISPLAY)
+set dldWin [ediCreateDLD]
+wm geometry $dldWin =70x750+2-20
+ediSetKeyPointMode lay no no no no none no
+ediSetKeyPointMode sch no no no no none no
+ssSysConfig -showToolTips 1
+ssSysConfig -toolTipDelay 4.0
+ssSysConfig -showDLDTips 1
+ssSysConfig -DLDTipDelay 1.0
+ssSysConfig -showWinTips 0
+ssSysConfig -winTipDelay 1.0
+ssSysConfig -echoCommands 0
+ssSysConfig -textReadRight 1
+ssSysConfig -textObjReadRight 1
+edbSetUndoMode -enabled 1 -minLevels 1 -maxLevels 5 -maxKB 5000
+edbSetBusCharacter {[]}
+source /opt/arfscripts/ssoft/arf.tcl
