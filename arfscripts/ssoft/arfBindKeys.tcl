@@ -18,7 +18,8 @@ ediDefineMouseButton -menu button1 "ediFixedMenuDo @window @x @y"
 ediDefineMouseButton -menu button3 "ediFit -win @window"
 
 ediDefineKey BackSpace "ediUndoCoord -win @window"
-ediDefineKey Escape "ediAbortEnter -win @window"
+#ediDefineKey Escape "ediAbortEnter -win @window"
+ediDefineKey Escape "abortAndDeselectAll @window"
 ediDefineKey Return "ediCompleteEnter -win @window"
 
 # create stuff
