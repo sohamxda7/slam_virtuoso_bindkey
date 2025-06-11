@@ -1,3 +1,8 @@
+#Add Custom Procs @soham
+source /opt/arfscripts/ssoft/addSelectByClick.tcl
+source /opt/arfscripts/ssoft/dismissSelectByClick.tcl
+source /opt/arfscripts/ssoft/preciseSelectOrDismiss.tcl
+
 #ARF BindKeys
 source /opt/arfscripts/ssoft/arfBindKeys.tcl
 
