@@ -12,7 +12,7 @@ ssSysConfig -defWinWidth 1500
 #set ediBrowseQuickDirList { /home/me/stdcells /home/me/macros}
 
 #To get the Console
-source /opt/arfscripts/ssoft/arfTkcon.tcl; tkcon::Init
+#source /opt/arfscripts/ssoft/arfTkcon.tcl; tkcon::Init
 
 #To have Delta move option
 #source /opt/arfscripts/ssoft/arfLayEdit.tcl
