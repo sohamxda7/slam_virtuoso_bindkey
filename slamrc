@@ -18,4 +18,5 @@ ssSysConfig -textReadRight 1
 ssSysConfig -textObjReadRight 1
 edbSetUndoMode -enabled 1 -minLevels 1 -maxLevels 5 -maxKB 5000
 edbSetBusCharacter {[]}
+ediSetDefaultWindowCommand layout "ediReplaceObjectByPt -win"
 source /opt/arfscripts/ssoft/arf.tcl
