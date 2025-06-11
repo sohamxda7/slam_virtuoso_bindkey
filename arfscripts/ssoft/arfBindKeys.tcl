@@ -6,7 +6,8 @@
 ediDefineMouseButton button1 "ediEnterCoord -win @window {@x @y}"
 #ediDefineMouseButton "{Shift}button1" "ediEnterSnapCoord -win @window {@x @y}"
 ediDefineMouseButton "{Shift}button1"  "addSelectByClick @window @x @y"
-ediDefineMouseButton "{Control}button1" "ediTrackSnapCoord @window @x @y"
+#ediDefineMouseButton "{Control}button1" "ediTrackSnapCoord @window @x @y"
+ediDefineMouseButton "{Control}button1" "dismissSelectByClick @window @x @y"
 ediDefineMouseButton button3 "ediCompleteEnter -win @window"
 # DMU is the Down Move Up sequence.
 ediDefineMouseButton -DMU button3 "ediZoomIn -win @window"
