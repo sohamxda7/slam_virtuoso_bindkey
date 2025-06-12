@@ -4,7 +4,8 @@
 # the special symbol @screen is replaced with the screen name
 
 #ediDefineMouseButton button1 "ediEnterCoord -win @window {@x @y}"
-ediDefineMouseButton button1 "smartSelect @window @x @y"
+#ediDefineMouseButton button1 "smartSelect @window @x @y"
+ediDefineMouseButton button1 "doubleClickHandler @window @x @y"
 #ediDefineMouseButton "{Shift}button1" "ediEnterSnapCoord -win @window {@x @y}"
 ediDefineMouseButton "{Shift}button1"  "addSelectByClick @window @x @y"
 #ediDefineMouseButton "{Control}button1" "ediTrackSnapCoord @window @x @y"
