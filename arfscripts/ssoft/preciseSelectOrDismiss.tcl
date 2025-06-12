@@ -31,5 +31,6 @@ proc smartSelect { win x y } {
         # If a command IS active (like draw rectangle), pass the coordinate to it.
         # This preserves the original functionality for all other commands.
         ediEnterCoord -win $win "$x $y"
+	ediPanByFactor -win $win 0 0
     }
 }
