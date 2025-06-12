@@ -3,6 +3,7 @@ source /opt/arfscripts/ssoft/addSelectByClick.tcl
 source /opt/arfscripts/ssoft/dismissSelectByClick.tcl
 source /opt/arfscripts/ssoft/preciseSelectOrDismiss.tcl
 source /opt/arfscripts/ssoft/abortAndDeselectAll.tcl
+source /opt/arfscripts/ssoft/doubleClickHandler.tcl
 
 #ARF BindKeys
 source /opt/arfscripts/ssoft/arfBindKeys.tcl
